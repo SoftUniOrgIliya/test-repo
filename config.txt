@@ -1,3 +1,8 @@
+
 name - Simeon
 size - 120
 email - simeon.mihaylov@hotmail.com
+
+name = Peter
+size = 100
+email = peter.petrov1504@gmail.com
