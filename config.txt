@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 name - Simeon
 size - 110
 email - simeon.mihaylov@hotmail.com
+=======
+name - Simeon
+size - 110
+email - simeon.mihaylov@hotmail.com
+>>>>>>> master
