@@ -10,3 +10,7 @@ size 1000
 email- ilasbg@abv.bg
 vksdkvj
 oshte neshto
+
+name = Krasimir
+size = 5
+email = tourenious@gmail.com
