@@ -12,5 +12,5 @@ email- ilasbg@abv.bg
 oshte neshto
 
 name = Krasimir
-size = 5
+size = 40
 email = tourenious@gmail.com
