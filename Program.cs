@@ -7,7 +7,7 @@ namespace Carpets
         static void Main(string[] args)
         {
             int x = int.Parse(Console.ReadLine));
-            
+            dafgf 112232
             Console.WriteLine("potato forever");
                        int y = n / 2;
             string left = "/";
