@@ -17,7 +17,7 @@ namespace Choose_a_Drink
             string profession = Console.ReadLine();
             var cnt = 0;
             
-            if (profession == "Athlete")
+            if (profession == "AthleteOne")
             {
                 Console.WriteLine("mn");
                 cnt++;
