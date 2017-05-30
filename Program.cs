@@ -6,7 +6,8 @@ namespace Carpets
     {
         static void Main(string[] args)
         {
-            int x = int.Parse(Console.ReadLine());
+            int x = int.Parse(Console.));
+            
             Console.WriteLine("potato forever");
                        int y = n / 2;
             string left = "/";
