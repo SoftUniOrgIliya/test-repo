@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Carpets
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+
+            int x = n / 2;
+            string left = "/";
+            string right = "\\";
+            string leftbot = "\\";
+            string rightbot = "/";
+            for (int i = 1; i <= n; i++)
+            {
+                if (i <= n / 2)
+                {
+                    if (i % 2 == 0)
+                    {
+                        left = left + " ";
+                        right = right.Insert(0, " ");
+                        leftbot = leftbot + " ";
+                        rightbot = rightbot.Insert(0, " ");
+                        x = x - 1;
+
+                        Console.WriteLine("{0}{1}{2}{3}", new string('.', x), left, right, new string('.', x));
+
+                    }
+                    else
+                    {
+                        x = x - 1;
+                        if (i > 1)
+                        {
+                            left = left + "/";
+                            right = right.Insert(0, "\\");
+                            leftbot = leftbot + "\\";
+                            rightbot = rightbot.Insert(0, "/");
+                        }
+                        Console.WriteLine("{0}{1}{2}{3}", new string('.', x), left, right, new string('.', x));
+                    }
+                }
+                else
+                {
+
+                    Console.WriteLine("{0}{1}{2}{3}", new string('.', x), leftbot, rightbot, new string('.', x));
+   
+                    x = x + 1;
+                    leftbot = leftbot.Substring(0, leftbot.Length-1);                    
+                    rightbot = rightbot.Substring(1);
+                }
+            }
+        }
+    }
+}
