@@ -11,6 +11,8 @@ namespace Carpets
             Console.Write("dasda");
 
             int y = n / 2;
+            Console.WriteLine("rapon");
+                       int y = n / 2;
             string left = "/";
             string right = "\\";
             string leftbot = "\\";
