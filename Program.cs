@@ -26,7 +26,7 @@ namespace Choose_a_Drink
             {
                 Console.WriteLine("Coffee");
             }
-            else if (profession == "SoftUni Student")
+            else if (profession == "SoftUni Student bestOne")
             {
                 Console.WriteLine("tea");
             }
