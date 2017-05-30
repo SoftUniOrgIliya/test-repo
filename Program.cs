@@ -8,7 +8,7 @@ namespace Carpets
         {
             int x = int.Parse(Console.));
             
-            Console.WriteLine("potato forever");
+            Console.WriteLine("potato commit");
                        int y = n / 2;
             string left = "/";
             string right = "\\";
