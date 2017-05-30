@@ -4,56 +4,57 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Choose_a_Drink
+namespace Carpets
 {
     class Program
     {
         static void Main(string[] args)
-        {   
-            for (int i = 1; i > 20; i--)
-            {
-                Console.WriteLine("ad");
-            }
-            string profession = Console.ReadLine();
-            var cnt = 0;
-            
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+        {
+            int n = int.Parse(Console.ReadLine());
 
-namespace Choose_a_Drink
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {   
-            for (int i = 1; i > 20; i--)
+            int x = n / 2;
+            string left = "/";
+            string right = "\\";
+            string leftbot = "\\";
+            string rightbot = "/";
+            for (int i = 1; i <= n; i++)
             {
-                Console.WriteLine("ad");
+                if (i <= n / 2)
+                {
+                    if (i % 2 == 0)
+                    {
+                        left = left + " ";
+                        right = right.Insert(0, " ");
+                        leftbot = leftbot + " ";
+                        rightbot = rightbot.Insert(0, " ");
+                        x = x - 1;
+
+                        Console.WriteLine("{0}{1}{2}{3}", new string('.', x), left, right, new string('.', x));
+
+                    }
+                    else
+                    {
+                        x = x - 1;
+                        if (i > 1)
+                        {
+                            left = left + "/";
+                            right = right.Insert(0, "\\");
+                            leftbot = leftbot + "\\";
+                            rightbot = rightbot.Insert(0, "/");
+                        }
+                        Console.WriteLine("{0}{1}{2}{3}", new string('.', x), left, right, new string('.', x));
+                    }
+                }
+                else
+                {
+
+                    Console.WriteLine("{0}{1}{2}{3}", new string('.', x), leftbot, rightbot, new string('.', x));
+
+                    x = x + 1;
+                    leftbot = leftbot.Substring(0, leftbot.Length - 1);
+                    rightbot = rightbot.Substring(1);
+                }
             }
-            string profession = Console.ReadLine();
-            var cnt = 0;
-            
-            if (profession == "AthleteOne")
-            {
-                Console.WriteLine("mn");
-                cnt++;
-            }
-            else if (profession == "Businessman" || profession == "Businesswoman")
-            {
-                Console.WriteLine("C");
-            }
-            else if (profession == "SoftUni Student bestOne")
-            {
-                Console.WriteLine("tea");
-            }
-            else
-            {
-                Console.WriteLine("be");
-            }
-            
         }
     }
 }
