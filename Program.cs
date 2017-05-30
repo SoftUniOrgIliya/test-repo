@@ -17,6 +17,7 @@ namespace Carpets
             string right = "\\";
             string leftbot = "\\";
             string rightbot = "/";
+            Console.Write("KotDOdi");
             for (int i = 1; i <= n; i++)
             {
                 if (i <= n / 2)
