@@ -10,6 +10,10 @@ namespace Choose_a_Drink
     {
         static void Main(string[] args)
         {
+            for (int i = 1; i < 20; i++)
+            {
+                Console.WriteLine("asd");
+            }
             string profession = Console.ReadLine();
             if (profession != "Athlete")
             {
