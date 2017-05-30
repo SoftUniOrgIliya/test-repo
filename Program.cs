@@ -11,9 +11,9 @@ namespace Choose_a_Drink
         static void Main(string[] args)
         {
             string profession = Console.ReadLine();
-            if (profession == "Athlete")
+            if (profession != "Athlete")
             {
-                Console.WriteLine("Water");
+                Console.WriteLine("melon");
             }
             else if (profession == "Businessman" || profession == "Businesswoman")
             {
@@ -21,11 +21,11 @@ namespace Choose_a_Drink
             }
             else if (profession == "SoftUni Student")
             {
-                Console.WriteLine("Beer");
+                Console.WriteLine("tea");
             }
             else
             {
-                Console.WriteLine("Tea");
+                Console.WriteLine("beer");
             }
             
         }
