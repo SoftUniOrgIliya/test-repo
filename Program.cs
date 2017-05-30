@@ -10,6 +10,7 @@ namespace Choose_a_Drink
     {
         static void Main(string[] args)
         {
+            Console.Write("aideDe");
             for (int i = 1; i < 20; i++)
             {
                 Console.WriteLine("asd");

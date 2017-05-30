@@ -1,6 +1,9 @@
 name = Peter
 size = 100
 email = peter.petrov1504@gmail.com
+ 
+Oshte nqkakvi neshta
+
 
 name - Simeon
 size - 110
