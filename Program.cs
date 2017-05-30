@@ -5,11 +5,10 @@ namespace Carpets
     class Program
     {
         static void Main(string[] args)
-        {
-            int x = int.Parse(Console.));
-            
+        {            
             Console.WriteLine("potato potato");
-                       int y = n / 2;
+            int x = int.Parse(Console.ReadLine));
+            int y = n / 2;
             string left = "/";
             string right = "\\";
             string leftbot = "\\";
