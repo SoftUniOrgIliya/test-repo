@@ -15,9 +15,12 @@ namespace Choose_a_Drink
                 Console.WriteLine("asd");
             }
             string profession = Console.ReadLine();
-            if (profession != "Athlete")
+            var cnt = 0;
+            
+            if (profession == "Athlete")
             {
                 Console.WriteLine("melon");
+                cnt++;
             }
             else if (profession == "Businessman" || profession == "Businesswoman")
             {
