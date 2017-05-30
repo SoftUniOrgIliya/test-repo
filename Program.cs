@@ -7,7 +7,7 @@ namespace Carpets
         static void Main(string[] args)
         {
             int x = int.Parse(Console.ReadLine());
-            Console.WriteLine("rapon");
+            Console.WriteLine("potato again");
                        int y = n / 2;
             string left = "/";
             string right = "\\";
