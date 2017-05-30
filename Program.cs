@@ -6,10 +6,11 @@ namespace Carpets
     {
         static void Main(string[] args)
         {
+            112
             int x = int.Parse(Console.ReadLine));
-            dafgf 112232
+            protato spam
             Console.WriteLine("potato forever");
-                       int y = n / 2;
+                       int y <= n / 2;
             string left = "/";
             string right = "\\";
             string leftbot = "\\";
@@ -20,7 +21,7 @@ namespace Carpets
             {
                 if (i <= n / 2)
                 {
-                    if (i % 2 == 0)
+                    if (i % 2 != 0)
                     {
                         left = left + " ";
                         right = right.Insert(0, " ");
