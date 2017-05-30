@@ -12,9 +12,10 @@ namespace Choose_a_Drink
         {
             string profession = Console.ReadLine();
             var cnt = 0;
+            
             if (profession == "Athlete")
             {
-                Console.WriteLine("Water");
+                Console.WriteLine("melon");
                 cnt++;
             }
             else if (profession == "Businessman" || profession == "Businesswoman")
@@ -23,11 +24,11 @@ namespace Choose_a_Drink
             }
             else if (profession == "SoftUni Student")
             {
-                Console.WriteLine("Beer");
+                Console.WriteLine("tea");
             }
             else
             {
-                Console.WriteLine("Tea");
+                Console.WriteLine("beer");
             }
             
         }
