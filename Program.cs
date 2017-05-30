@@ -11,9 +11,11 @@ namespace Choose_a_Drink
         static void Main(string[] args)
         {
             string profession = Console.ReadLine();
+            var cnt = 0;
             if (profession == "Athlete")
             {
                 Console.WriteLine("Water");
+                cnt++;
             }
             else if (profession == "Businessman" || profession == "Businesswoman")
             {
