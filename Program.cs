@@ -11,6 +11,7 @@ namespace Carpets
         static void Main(string[] args)
         {
             int x = int.Parse(Console.ReadLine());
+            var neshto = int.Parse(Console.ReadLine());
 
             int y = n / 2;
             string left = "/";
