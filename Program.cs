@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Carpets
 {
@@ -12,6 +8,7 @@ namespace Carpets
         {
             int x = int.Parse(Console.ReadLine());
             var neshto = int.Parse(Console.ReadLine());
+            Console.Write("dasda");
 
             int y = n / 2;
             string left = "/";
